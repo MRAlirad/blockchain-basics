@@ -675,3 +675,15 @@ ZK rollups use validity proofs, known as _zk proofs_, to verify transaction batc
 -   [`Sybil attacks`](https://www.cyfrin.io/blog/understanding-sybil-attacks-in-blockchain-and-smart-contracts)
 -   [`Double-spending`](https://www.cyfrin.io/blog/understanding-double-spending-in-blockchain)
 -   [`Zero-knowledge proofs`](https://ethereum.org/en/zero-knowledge-proofs/)
+
+## Centralized Sequencers
+
+In blockchain and cryptocurrency networks, the role of a **sequencer** is crucial for ordering and bundling transactions. Sequencers are operators that are responsible for organizing how transactions are processed. In many roll-up solutions, sequencers are centralized, controlled by a single entity.
+
+### Centralization risks
+
+**Censorship and Manipulation**. Centralized sequencers have the power to selectively block or delay specific transactions. For example, users might experience blocked withdrawal transactions, preventing them from accessing their funds. Additionally, centralized control enables the manipulation of transaction order for personal gain.
+
+**Operational Downtime**. If a centralized sequencer experiences downtime, all transaction processing can halt. This means no transactions, including withdrawals, can be processed until the sequencer is back online.
+
+To mitigate the issues associated with centralized sequencers, projects like **zkSync** are working towards _decentralizing_ their sequencer operations, distributing control among multiple entities or nodes.
