@@ -261,7 +261,7 @@ Learning about different L1s is like learning different languages. This course f
 
 ##### Layer 2 (L2) Blockchains
 
-A **Layer 2 (L2)** is a blockchain built *on top of* an underlying Layer 1, most commonly Ethereum. L2s like **Arbitrum**, **Optimism**, and **zkSync** act as express lanes built above our congested Ethereum highway.
+A **Layer 2 (L2)** is a blockchain built _on top of_ an underlying Layer 1, most commonly Ethereum. L2s like **Arbitrum**, **Optimism**, and **zkSync** act as express lanes built above our congested Ethereum highway.
 
 Their primary function is to handle transactions more efficiently. They process large batches of transactions "off-chain" at a very low cost, bundle them into a compressed summary, and then submit that summary back to the main Ethereum L1. By doing this, they inherit the security and decentralization of Ethereum while offering significantly faster transaction speeds and dramatically lower fees.
 
@@ -285,8 +285,8 @@ With so many different networks—L1s, L2s, mainnets, and testnets—how do our 
 
 A **Chain ID** is a unique number that serves as a specific identifier for a blockchain network. This simple number prevents you from accidentally trying to spend your valuable Ethereum Mainnet funds on the Sepolia Testnet, or vice-versa. For example:
 
-*   **Ethereum Mainnet** has a Chain ID of **1**.
-*   **Sepolia Testnet** has a Chain ID of **11155111**.
+-   **Ethereum Mainnet** has a Chain ID of **1**.
+-   **Sepolia Testnet** has a Chain ID of **11155111**.
 
 Your wallet uses the Chain ID to ensure it is communicating with the correct network for every transaction you sign. You can find the Chain ID and other connection details for hundreds of blockchains on websites like `chainlist.org`.
 
@@ -306,10 +306,10 @@ By design, blockchains and the smart contracts that run on them are isolated sys
 
 They have no native capability to access any external, real-world data, often called **off-chain** data. This creates a significant problem because for smart contracts to be truly useful in real-world agreements, they often need information from outside their digital walls. Consider these examples:
 
-*   A decentralized insurance contract needs weather information to pay out a claim for a flood.
-*   A DeFi lending protocol needs real-time stock and cryptocurrency prices to manage collateral.
-*   A prediction market needs to know the final score of a sports game or the results of an election to settle bets.
-*   A supply chain application needs confirmation that a package has been delivered.
+-   A decentralized insurance contract needs weather information to pay out a claim for a flood.
+-   A DeFi lending protocol needs real-time stock and cryptocurrency prices to manage collateral.
+-   A prediction market needs to know the final score of a sports game or the results of an election to settle bets.
+-   A supply chain application needs confirmation that a package has been delivered.
 
 Without access to this off-chain data, smart contracts are limited to simple token-based operations. The challenge of securely getting external data onto the blockchain is known as the **Blockchain Oracle Problem**.
 
@@ -342,8 +342,8 @@ This decentralized process ensures that the data delivered to the blockchain is 
 
 The combination of secure on-chain code and reliable off-chain data provided by a DON creates what we call a **hybrid smart contract**. This architecture consists of two key parts:
 
-*   **On-chain Component:** The core smart contract logic that lives on the blockchain, providing decentralization, security, and transparency.
-*   **Off-chain Component:** The real-world data and computation provided by a Decentralized Oracle Network.
+-   **On-chain Component:** The core smart contract logic that lives on the blockchain, providing decentralization, security, and transparency.
+-   **Off-chain Component:** The real-world data and computation provided by a Decentralized Oracle Network.
 
 This hybrid model combines the best of both worlds: the tamper-proof security of the blockchain and the rich data and functionality of the real world. Today, most major Web3 protocols, from DeFi to blockchain gaming, use this hybrid architecture. In fact, the term "smart contract" is now often used interchangeably with "hybrid smart contract" because this model is essential for creating powerful, real-world applications.
 
@@ -353,10 +353,10 @@ This hybrid model combines the best of both worlds: the tamper-proof security of
 
 Chainlink provides a suite of essential services that enable hybrid smart contracts, including:
 
-*   **Data Feeds:** Provide highly reliable, real-time financial market data, such as `Price Feeds`, which are the backbone of the DeFi ecosystem.
-*   **Automation:** Allows for the automated execution of smart contract functions based on predefined triggers, such as time intervals, without relying on a centralized server.
-*   **Verifiable Random Function (VRF):** Provides a source of provably fair and verifiable randomness, which is impossible for a blockchain to generate on its own. This is crucial for blockchain gaming, NFTs, and any application requiring unpredictable outcomes.
-*   **Cross-Chain Communication:** Enables smart contracts on one blockchain to send messages and interact with smart contracts on another, connecting the fragmented Web3 ecosystem.
+-   **Data Feeds:** Provide highly reliable, real-time financial market data, such as `Price Feeds`, which are the backbone of the DeFi ecosystem.
+-   **Automation:** Allows for the automated execution of smart contract functions based on predefined triggers, such as time intervals, without relying on a centralized server.
+-   **Verifiable Random Function (VRF):** Provides a source of provably fair and verifiable randomness, which is impossible for a blockchain to generate on its own. This is crucial for blockchain gaming, NFTs, and any application requiring unpredictable outcomes.
+-   **Cross-Chain Communication:** Enables smart contracts on one blockchain to send messages and interact with smart contracts on another, connecting the fragmented Web3 ecosystem.
 
 By solving the oracle problem, Decentralized Oracle Networks like Chainlink are the critical link that allows blockchains to securely interact with the real world, unlocking the full potential of smart contracts.
 
@@ -376,10 +376,10 @@ The current system for managing agreements relies on trusting a central authorit
 
 Why does this happen? Because these centralized entities are run by people with their own self-interests. When an opportunity arises to profit by bending or breaking the rules, the incentive to do so can be overwhelming. This isn't just a hypothetical problem; it's a recurring theme throughout history.
 
-*   **The 2008 Financial Crisis**: This global meltdown was a direct result of broken promises. Centralized financial institutions engaged in non-transparent, back-room deals, creating complex financial products they knew were risky. Their implicit promise to manage the economy responsibly was shattered, leading to catastrophic consequences for millions.
-*   **The McDonald's Monopoly Scam**: In the 1990s, McDonald's promised its customers a fair chance to win millions. However, an insider at the company responsible for the game pieces rigged the system, stealing up to $24 million in prize money. Because the game was centrally controlled and opaque, the public's promise of a fair shot was worthless.
-*   **Robinhood Trading Halts**: During the GME and AMC stock frenzy, the trading platform Robinhood promised to provide fair market access to retail investors. Yet, at the height of the volatility, they broke that promise by halting trading for certain stocks. As a centralized company, they had a "switch" they could flip, denying users the ability to participate freely.
-*   **Bank Runs**: The classic example is a bank run, as seen during the Great Depression. Banks promise to keep your money safe and available for withdrawal. But when too many people try to access their funds at once, the bank's broken promise—that it lent out the money and doesn't have it on hand—is exposed, causing the system to collapse.
+-   **The 2008 Financial Crisis**: This global meltdown was a direct result of broken promises. Centralized financial institutions engaged in non-transparent, back-room deals, creating complex financial products they knew were risky. Their implicit promise to manage the economy responsibly was shattered, leading to catastrophic consequences for millions.
+-   **The McDonald's Monopoly Scam**: In the 1990s, McDonald's promised its customers a fair chance to win millions. However, an insider at the company responsible for the game pieces rigged the system, stealing up to $24 million in prize money. Because the game was centrally controlled and opaque, the public's promise of a fair shot was worthless.
+-   **Robinhood Trading Halts**: During the GME and AMC stock frenzy, the trading platform Robinhood promised to provide fair market access to retail investors. Yet, at the height of the volatility, they broke that promise by halting trading for certain stocks. As a centralized company, they had a "switch" they could flip, denying users the ability to participate freely.
+-   **Bank Runs**: The classic example is a bank run, as seen during the Great Depression. Banks promise to keep your money safe and available for withdrawal. But when too many people try to access their funds at once, the bank's broken promise—that it lent out the money and doesn't have it on hand—is exposed, causing the system to collapse.
 
 In each case, the failure stemmed from having to trust a centralized party that ultimately acted in its own interest.
 
@@ -462,15 +462,15 @@ The EVM's success has led many other blockchains, particularly Layer 2 rollups, 
 
 An EVM Equivalent chain is designed to behave **identically to the Ethereum mainnet in every way**. The underlying mechanics, opcodes, and state-transition logic are the same.
 
-*   **Implication for Developers:** You can take a smart contract that works on Ethereum and deploy it directly to an EVM Equivalent chain without changing a single line of code or using different development tools. Its behavior will be exactly as expected.
-*   **Examples:** Optimism (OP), Arbitrum.
+-   **Implication for Developers:** You can take a smart contract that works on Ethereum and deploy it directly to an EVM Equivalent chain without changing a single line of code or using different development tools. Its behavior will be exactly as expected.
+-   **Examples:** Optimism (OP), Arbitrum.
 
 #### EVM Compatibility
 
 An EVM Compatible chain can execute smart contracts written in EVM-native languages like Solidity, but there are **some differences in how the chain works "under the hood."** These chains have made modifications or optimizations to the core architecture.
 
-*   **Implication for Developers:** While most code will work seamlessly, these underlying differences may require developers to make small adjustments to their smart contracts or use specialized tooling to deploy and interact with them.
-*   **Examples:** Polygon zkEVM, zkSync Era.
+-   **Implication for Developers:** While most code will work seamlessly, these underlying differences may require developers to make small adjustments to their smart contracts or use specialized tooling to deploy and interact with them.
+-   **Examples:** Polygon zkEVM, zkSync Era.
 
 ### A Crucial Tip for Developers
 
@@ -522,6 +522,61 @@ Perhaps the most profound benefit of smart contracts is that they create a "trus
 
 Smart contracts replace this reliance on trust with the cryptographic certainty of code. You don't have to trust that the other party will honor their promise because the contract will execute deterministically as programmed. The system shifts from a "brand-based" world to a "math-based" one, where agreements are not just promises but unbreakable, verifiable, and self-enforcing digital protocols.
 
+# Sending Transactions
+
+## What Is a Blockchain Wallet?
+
+To understand what a blockchain wallet is, let’s start with a simple, real-world scenario. Imagine Jess owes her friend Ciara $5. If they are in the same room, the process is simple: Jess opens her physical wallet, takes out a $5 bill, and hands it directly to Ciara. This is a direct, wallet-to-wallet transfer—it's immediate, simple, and involves no one else.
+
+Now, imagine Jess and Ciara are on opposite sides of the world. Sending that same $5 becomes much more complicated. Jess would need to use a bank or another third-party service, which involves fees, delays, and a more complex process.
+
+Blockchain technology was designed to solve this problem. It allows for digital transactions that are as direct and easy as handing cash to someone in person, regardless of physical distance. The tool that makes this possible is the blockchain wallet.
+
+A blockchain wallet is a secure digital application that allows you to manage your digital assets and interact with blockchain networks. Think of it as your personal access point to the world of Web3. With a wallet, you can perform three essential functions:
+
+1.  **Review your balances** (e.g., see that you have 0.1 ETH or 0.02 BTC).
+2.  **View your transaction history** (e.g., review a record of sending or receiving tokens).
+3.  **Send and receive digital tokens**.
+
+While the underlying technology is complex, the wallet handles all the technical details for you, providing a user-friendly interface for managing your assets.
+
+### Understanding Native Currency and Your Wallet Address
+
+Before you can send or receive assets, there are two fundamental concepts to grasp: native currency and your wallet address.
+
+**1. Native Currency**
+
+Most blockchains have a primary, built-in token called a "native currency." This is similar to how different countries have their own national currencies, like the Great British Pound in the UK or the US Dollar in America.
+
+For example:
+
+-   The native currency of the **Bitcoin** blockchain is **Bitcoin (BTC)**.
+-   The native currency of the **Ethereum** blockchain is **Ether (ETH)**.
+
+For the purpose of this course, we will focus primarily on **Ether (ETH)** and the **Ethereum blockchain**.
+
+**2. Your Wallet Address**
+
+When you create a new blockchain wallet, it generates a **unique wallet address**. This address is a long string of letters and numbers, such as `0x5392BD00571157Fa11103b0eE6D492c9563a6799`.
+
+The easiest way to think of your wallet address is as your **digital mailbox**. In the physical world, if someone wants to send you a package, they need your mailing address. In the digital world, if someone wants to send you digital tokens like Ether, they need your wallet address. It is the public identifier you share with others to receive funds.
+
+### How a Wallet Works in Practice
+
+Let’s return to our example. Jess and Ciara agree that the $5 debt will be paid in digital tokens. To complete the transaction, Jess needs only one piece of information from Ciara: her wallet address.
+
+The process is straightforward:
+
+1.  Jess asks Ciara for her wallet address.
+2.  Ciara provides her address (e.g., `0x5328ef2...`).
+3.  Jess opens her own blockchain wallet, initiates a new transaction, and enters Ciara's wallet address as the destination.
+4.  She specifies the amount of tokens to send and confirms the transaction.
+
+Her wallet securely approves and broadcasts this transaction to the blockchain network. Moments later, the tokens arrive in Ciara's wallet. The transfer is complete—direct, secure, and without the need for a traditional bank.
+
+### Summary
+
+A blockchain wallet is your gateway to interacting with a blockchain. It allows you to review your balances, view transaction history, and send or receive digital tokens. When you create a wallet, you get a unique **wallet address**—your public "digital mailbox" that you share with others to receive funds.
 
 # Blockchain Basics
 
